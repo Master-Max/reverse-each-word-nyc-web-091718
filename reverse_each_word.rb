@@ -4,5 +4,5 @@ def reverse_each_word(str)
   strArr.each do |word|
     new_strArr.push(word.reverse!)
   end
-  new_strArr
+  new_strArr.join(' ')
 end
